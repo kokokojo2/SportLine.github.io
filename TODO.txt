@@ -1,0 +1,2 @@
+add more vertical space between screens
+delete a div that contains forms for better positioning
