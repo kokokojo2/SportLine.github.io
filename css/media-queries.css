@@ -1,11 +1,11 @@
-﻿@media screen and (max-device-width: 320px){
+﻿@media screen and (max-width: 320px){
     /*initial*/
     body{
         width: 320px;
     }
 
     .mainWrapper{
-        width: 100%;
+        width: 320px;
         border: 1px solid red;
         position: relative;
 
@@ -401,8 +401,8 @@
     }
 
     .gradient{
-        width: 120%;
-        left: 0;
+        width: 340px;
+        left: 2px;
         bottom: -15px;
 
         background: linear-gradient(0deg, #275aa2, 70%, transparent);
