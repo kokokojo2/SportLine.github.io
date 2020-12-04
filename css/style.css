@@ -40,23 +40,15 @@ button, input[type="submit"]{
     text-shadow: -3px 5px 7px #112849;
 }
 
-dsd{
-    font-family: "Akrobat Regular", sans-serif;
-    font-size: 20px;
-    color: white;
-
-    background-color: #275aa2;
-}
-
 h1, h2, h3{
     color: white;
     text-shadow: -3px 5px 7px #112849;
 }
 /*Стилізація меню*/
-
-.hamburgerToggle{
+.mobileMenu, #toggle, .hamburgerToggle, .login{
     display: none;
 }
+
 .menuBar{
     display: flex;
     width: 100%;
@@ -254,6 +246,11 @@ h2{
 }
 
 /*Стилізація третього екрану*/
+
+.mobile{
+    display: none;
+}
+
 .advantageName{
     font-size: 25px !important;
 }

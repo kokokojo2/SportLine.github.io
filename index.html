@@ -11,10 +11,6 @@
 <body>
     <div class="BackgroundPic"></div>
     <div class="gradient"></div>
-     <div class="hamburgerToggle">
-                            <label for="toggle"><img src="img/menuToggle.png" alt="Menu"></label>
-                            <input type="checkbox" id="toggle">
-                        </div>
     <div class="mainWrapper">
 
         <header>
@@ -23,10 +19,9 @@
                     <div class="logo">
                         <img src="img/logo.png" alt="Логотип" class="logo">
                         <div class="logoText">SportLine</div>
-                    </div>
+                     </div>
                     <!--Навігація розбита на дві частини, так як вони позиціонуються по-різному відносно батьківсього блоку-->
-                    <nav>
-
+                    <nav class="desktopMenu">
                         <ul class="mainMenu">
                             <li><a href="#" class="current">Головна</a></li>
                             <li>
@@ -59,6 +54,19 @@
                             <li><a href="#">Реєстрація</a></li>
                         </ul>
                     </nav>
+                    <label for="toggle" class="hamburgerToggle"><img src="img/menuToggle.png" alt="Menu"></label>
+                    <a href="#" class="login"><img src="img/singinMobile.png"></a>
+                    <input type="checkbox" id="toggle">
+                     <div class="mobileMenu">
+                         <ul>
+                            <li>Меню</li>
+                             <li><span>Закрити</span></li>
+                            <li>Головна</li>
+                            <li>Послуги</li>
+                            <li>Локації</li>
+                            <li>Я тренер</li>
+                        </ul>
+                     </div>
                 </div>
             </div>
             <div class="col10 firstScreen">
@@ -82,7 +90,7 @@
                 <div class="col4 aboutText">
                     <h3 class="sectionName">Про SportLine</h3>
                     <div class="textContainer">
-                            фLorem Ipsum є псевдо- латинський текст використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом. Це також називається заповнювач ( або наповнювач) текст. Це зручний інструмент для макетів. Це допомагає намітити візуальні елементи в документ або презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в основному частиною латинського тексту за класичною автор і філософа Цицерона.
+                            Lorem Ipsum є псевдо- латинський текст використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом. Це також називається заповнювач ( або наповнювач) текст. Це зручний інструмент для макетів. Це допомагає намітити візуальні елементи в документ або презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в основному частиною латинського тексту за класичною автор і філософа Цицерона.
                     </div>
                 </div>
                 <div class="col7 corpusImage">
@@ -129,6 +137,48 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="mobile">
+                    <h3 class="sectionName">Чому нас обирають?</h3>
+                    <div class="mobileSlider">
+                        <div id="slide1" class="slide">
+                            <div class="sliderContent">
+                                    <img src="img/adv1.png" alt="icon">
+                                    <p class="advantageName">Зручне розташування</p>
+                            </div>
+                        </div>
+
+                        <div id="slide2" class="slide">
+                            <div class="sliderContent">
+                                    <img src="img/adv2.png" alt="icon">
+                                    <p class="advantageName">Цілодобовий доступ</p>
+                            </div>
+                        </div>
+
+                        <div id="slide3" class="slide">
+                            <div class="sliderContent">
+                                <img src="img/adv3.png" alt="icon">
+                                <p class="advantageName">Кваліфікований персонал</p>
+                            </div>
+                        </div>
+
+                        <div id="slide4" class="slide">
+                            <div class="sliderContent">
+                                <img src="img/adv4.png" alt="icon">
+                                <p class="advantageName">Дитяча кімната</p>
+                            </div>
+                        </div>
+
+                        <div id="slide5" class="slide">
+                            <div class="sliderContent">
+                                <img src="img/adv5.png" alt="icon">
+                                <p class="advantageName">Їдальня</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/scrolable.png" alt="Прогорніть">
+                </div>
+
         </section>
 
         <section>
@@ -171,6 +221,66 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="mobile">
+                    <h3 class="sectionName">Види спорту</h3>
+                    <div class="mobileSlider">
+                        <div class="slide">
+                            <div class="sliderContent">
+                                    <img class="sliderPic" src="img/football.png" alt="football icon">
+                                    <p class="advantageName sport">Футбол</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="sliderContent">
+                                <img class="sliderPic"  src="img/tennis.png" alt="tennis icon">
+                                <p class="advantageName sport">Теніс</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="sliderContent">
+                                <img class="sliderPic" src="img/swimming.png" alt="swimming icon">
+                                <p class="advantageName sport">Плавання</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="sliderContent">
+                                <img class="sliderPic" src="img/rugby.png" alt="rugby icon">
+                                <p class="advantageName sport">Регбі</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="sliderContent">
+                                <img class="sliderPic" src="img/basketball.png" alt="basketball icon">
+                                <p class="advantageName sport">Баскетбол</p>
+                            </div>
+                        </div>
+
+                         <div class="slide">
+                            <div class="sliderContent">
+                                <img class="sliderPic" src="img/badminton.png" alt="badminton icon">
+                                <p class="advantageName sport">Бадмінтон</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="sliderContent">
+                                <img class="sliderPic" src="img/box.png" alt="box icon">
+                                <p class="advantageName sport">Бокс</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/scrolable.png" alt="Прогорніть">
+
+                    <div class="mobileSlogan">
+                        <h3 class="sectionName">Реєструйся та обирай!</h3>
+                        <button>Зареєструватися!</button>
+                    </div>
+                </div>
         </section>
 
         <section>
@@ -191,11 +301,45 @@
                         </div>
                     </div>
                      <div class="col4 card">
-                        <p class="sectionName">Звичайний</p>
+                        <p class="sectionName">Розширений</p>
                         <img src="img/better.png" alt="icon">
                         <p>	Lorem Ipsum є псевдо-  використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом.</p>
                          <button>1999 грн/міс</button>
                     </div>
+                </div>
+
+                <div class="mobile">
+                    <h3 class="sectionName">Типи абонементів</h3>
+                    <div class="mobileAccordion">
+                        <label for="accordToggle1"><img src="img/bottomArrow.png" alt="Розгорнути"></label>
+                        <input id="accordToggle1" type="checkbox">
+                        <div class="accordContent ac1">
+                            <img src="img/lux.png" alt="icon">
+                            <p class="sectionName">Люкс</p>
+                            <p class="accordText">	Lorem Ipsum є псевдо-  використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом.</p>
+                        </div>
+                    </div>
+                    <button class="accordBtn">2999 грн/міс</button>
+                    <div class="mobileAccordion">
+                        <label for="accordToggle2"><img src="img/bottomArrow.png" alt="Розгорнути"></label>
+                        <input id="accordToggle2" type="checkbox">
+                        <div class="accordContent ac2">
+                            <img src="img/better.png" alt="icon">
+                            <p class="sectionName">Розширений</p>
+                            <p class="accordText">	Lorem Ipsum є псевдо-  використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом.</p>
+                        </div>
+                    </div>
+                    <button class="accordBtn">1999 грн/міс</button>
+                    <div class="mobileAccordion">
+                        <label for="accordToggle3"><img src="img/bottomArrow.png" alt="Розгорнути"></label>
+                        <input id="accordToggle3" type="checkbox">
+                        <div class="accordContent ac3">
+                            <img src="img/avarage.png" alt="icon">
+                            <p class="sectionName">Звичайний</p>
+                            <p class="accordText">	Lorem Ipsum є псевдо-  використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом.</p>
+                        </div>
+                    </div>
+                    <button class="accordBtn">799 грн/міс</button>
                 </div>
         </section>
 
@@ -256,6 +400,8 @@
                     <span><input id="passConf" type="password" name="password" required><br></span>
                     <input type="submit" value="Зареєструватися">
                 </form>
+                            <p class="mobile sectionName">Або</p>
+
             </div>
             <div class="middleBlock">
                 <img src="img/profileIcon.png" alt="icon">
