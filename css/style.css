@@ -2,23 +2,7 @@
     font-family: 'Akrobat Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Regular'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Regular.woff') format('woff');
-    }
-
-
-    @font-face {
-    font-family: 'Akrobat Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Akrobat Light'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Light.woff') format('woff');
-    }
-
-
-    @font-face {
-    font-family: 'Akrobat ExtraLight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Akrobat ExtraLight'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-ExtraLight.woff') format('woff');
+    src: local('Akrobat Regular'), url('../../SportLine.github.io/fonts/try12/akrobat-regular.otf') format('opentype');
     }
 
 
@@ -26,7 +10,7 @@
     font-family: 'Akrobat SemiBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat SemiBold'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-SemiBold.woff') format('woff');
+    src: local('Akrobat SemiBold'), url('../../SportLine.github.io/fonts/try12/akrobat-semibold.otf') format('opentype');
     }
 
 
@@ -34,7 +18,7 @@
     font-family: 'Akrobat Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Bold'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Bold.woff') format('woff');
+    src: local('Akrobat Bold'), url('../../SportLine.github.io/fonts/try12/akrobat-bold.otf') format('opentype');
     }
 
 
@@ -50,7 +34,7 @@
     font-family: 'Akrobat Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Black'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Black.woff') format('woff');
+    src: local('Akrobat Black'), url('../../SportLine.github.io/fonts/try12/akrobat-black.otf') format('otf');
     }
 
 /*Задній фон*/
