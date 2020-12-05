@@ -2,7 +2,7 @@
     font-family: 'Akrobat Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Regular'), url('../fonts/Akrobat-Regular.woff') format('woff');
+    src: local('Akrobat Regular'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Regular.woff') format('woff');
     }
 
 
@@ -10,7 +10,7 @@
     font-family: 'Akrobat Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Light'), url('../fonts/Akrobat-Light.woff') format('woff');
+    src: local('Akrobat Light'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Light.woff') format('woff');
     }
 
 
@@ -18,7 +18,7 @@
     font-family: 'Akrobat ExtraLight';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat ExtraLight'), url('../fonts/Akrobat-ExtraLight.woff') format('woff');
+    src: local('Akrobat ExtraLight'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-ExtraLight.woff') format('woff');
     }
 
 
@@ -26,7 +26,7 @@
     font-family: 'Akrobat SemiBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat SemiBold'), url('../fonts/Akrobat-SemiBold.woff') format('woff');
+    src: local('Akrobat SemiBold'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-SemiBold.woff') format('woff');
     }
 
 
@@ -34,7 +34,7 @@
     font-family: 'Akrobat Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Bold'), url('../fonts/Akrobat-Bold.woff') format('woff');
+    src: local('Akrobat Bold'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Bold.woff') format('woff');
     }
 
 
@@ -42,7 +42,7 @@
     font-family: 'Akrobat ExtraBold Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat ExtraBold Regular'), url('../fonts/akrobat-extrabold-webfont.woff') format('woff');
+    src: local('Akrobat ExtraBold Regular'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Regular.woff') format('woff');
     }
 
 
@@ -50,7 +50,7 @@
     font-family: 'Akrobat Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Black'), url('../fonts/Akrobat-Black.woff') format('woff');
+    src: local('Akrobat Black'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Black.woff') format('woff');
     }
 
 /*Задній фон*/
