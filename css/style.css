@@ -42,7 +42,7 @@
     font-family: 'Akrobat ExtraBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat ExtraBold'), url('../../SportLine.github.io/fonts/try12/akrobat-extrabold.otf') format('otf');
+    src: local('Akrobat ExtraBold'), url('../../SportLine.github.io/fonts/try12/akrobat-extrabold.otf') format('opentype');
     }
 
 
