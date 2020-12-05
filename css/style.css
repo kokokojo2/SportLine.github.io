@@ -39,10 +39,10 @@
 
 
     @font-face {
-    font-family: 'Akrobat ExtraBold Regular';
+    font-family: 'Akrobat ExtraBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat ExtraBold Regular'), url('https://github.com/kokokojo2/SportLine.github.io/blob/fontscofiguration/fonts/Akrobat-Regular.woff') format('woff');
+    src: local('Akrobat ExtraBold'), url('../../SportLine.github.io/fonts/akrobat-extrabold-webfont.woff') format('woff');
     }
 
 
