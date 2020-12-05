@@ -34,7 +34,7 @@
     font-family: 'Akrobat Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Black'), url('../../SportLine.github.io/fonts/try12/akrobat-black.otf') format('otf');
+    src: local('Akrobat Black'), url('../../SportLine.github.io/fonts/try12/akrobat-black.otf') format('opentype');
     }
 
 /*Задній фон*/
