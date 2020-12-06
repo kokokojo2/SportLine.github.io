@@ -1,3 +1,42 @@
+    @font-face {
+    font-family: 'Akrobat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat Regular'), url('../../SportLine.github.io/fonts/try12/akrobat-regular.otf') format('opentype');
+    }
+
+
+    @font-face {
+    font-family: 'Akrobat SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat SemiBold'), url('../../SportLine.github.io/fonts/try12/akrobat-semibold.otf') format('opentype');
+    }
+
+
+    @font-face {
+    font-family: 'Akrobat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat Bold'), url('../../SportLine.github.io/fonts/try12/akrobat-bold.otf') format('opentype');
+    }
+
+
+    @font-face {
+    font-family: 'Akrobat ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat ExtraBold'), url('../../SportLine.github.io/fonts/try12/akrobat-extrabold.otf') format('opentype');
+    }
+
+
+    @font-face {
+    font-family: 'Akrobat Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat Black'), url('../../SportLine.github.io/fonts/try12/akrobat-black.otf') format('opentype');
+    }
+
 /*Задній фон*/
 .BackgroundPic{
     background-image: url("../img/bgNew.png");
@@ -18,7 +57,7 @@ body{
 a { text-decoration: none; }
 
 button, input[type="submit"]{
-    font-family: "Akrobat ExtraBold", sans-serif;
+    font-family: "Akrobat ExtraBold", cursive;
     font-size: 30px;
     text-align: center;
     color: white;
@@ -33,7 +72,7 @@ button, input[type="submit"]{
 }
 
 .sectionName, .advantageName{
-    font-family: "Akrobat ExtraBold", sans-serif;
+    font-family: "Akrobat ExtraBold", cursive;
     font-size: 30px;
     color: white;
 
@@ -76,7 +115,7 @@ h1, h2, h3{
 
 }
 .logoText{
-    font-family: "Akrobat ExtraBold", sans-serif;
+    font-family: "Akrobat ExtraBold", cursive;
     font-size: 35px;
     color: white;
 
@@ -113,15 +152,16 @@ nav{
 }
 
 .menuBar ul li a{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
+    color: white;
     font-size: 20px;
 
 }
 
 .menuBar ul li a:visited{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .current{
@@ -165,7 +205,7 @@ nav{
 
 /*Стилізація першого екрану*/
 h1{
-    font-family: 'Akrobat Black', sans-serif;
+    font-family: 'Akrobat Black', cursive;
     font-size: 50px;
 }
 
@@ -183,12 +223,12 @@ h1:after{
 }
 
 h2{
-    font-family: 'Akrobat Black', sans-serif;
+    font-family: 'Akrobat Black', cursive;
     font-size: 45px;
 }
 
 .mainSlogan h3{
-    font-family: 'Akrobat SemiBold', sans-serif;
+    font-family: 'Akrobat SemiBold', cursive;
     font-size: 32px;
 }
 
@@ -206,7 +246,7 @@ h2{
     padding-left: 40px;
 
     color: white;
-    font-family: "Akrobat SemiBold", sans-serif;
+    font-family: "Akrobat SemiBold", cursive;
     font-size: 30px;
     text-shadow: -3px 5px 7px #112849;
 }
@@ -227,7 +267,7 @@ h2{
 
 /*Стилізація другого екрану*/
 .textContainer{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
     color: white;
 
@@ -258,7 +298,7 @@ h2{
 .advantageText{
     padding-right: 150px;
 
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
     color: white;
 
@@ -279,19 +319,19 @@ h2{
 }
 
 .col2.card p{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     color: white;
     font-size: 35px;
 }
 
 .slogan span{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 25px;
     text-shadow: -3px 5px 7px #112849;
     color: white;
 }
 .slogan .sectionName{
-    font-family: "Akrobat ExtraBold", sans-serif;
+    font-family: "Akrobat ExtraBold", cursive;
     font-size: 30px;
     color: white;
 
@@ -301,7 +341,7 @@ h2{
 
 /*Типи абонементів*/
 .col4.card p:not(.sectionName){
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
     color: white;
 
@@ -311,14 +351,14 @@ h2{
 }
 
 .col4.card .sectionName{
-     font-family: "Akrobat SemiBold", sans-serif;
+     font-family: "Akrobat SemiBold", cursive;
      font-size: 40px;
 
      padding-top: 15px;
 }
 .middleBlock .col4.card{
     text-shadow: none;
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
     color: white;
 
@@ -326,7 +366,7 @@ h2{
 }
 
 .col4.card button{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
 
     padding-left: 15px;
     padding-right: 15px;
@@ -342,14 +382,14 @@ td, th{
 }
 
 td{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
 
     padding: 7px 0;
 }
 
 th{
-    font-family: "Akrobat ExtraBold", sans-serif;
+    font-family: "Akrobat ExtraBold", cursive;
     font-size: 30px;
 
     padding: 20px 40px;
@@ -364,7 +404,7 @@ th{
 }
 
 label{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     color: white;
     font-size: 20px;
     text-shadow: -3px 5px 7px #112849;
@@ -375,7 +415,7 @@ input, input:focus{
     padding-bottom: 5px;
     border: none;
 
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
     color: white;
 
@@ -408,7 +448,7 @@ form span::after{
 }
 
 .middleBlock{
-    font-family: "Akrobat SemiBold", sans-serif;
+    font-family: "Akrobat SemiBold", cursive;
     font-size: 30px;
     color: white;
     text-shadow: -3px 5px 7px #112849;
@@ -439,7 +479,7 @@ input:focus:invalid{
 }
 
 footer p{
-    font-family: "Akrobat Regular", sans-serif;
+    font-family: "Akrobat Regular", cursive;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -447,4 +487,3 @@ footer p{
     background-color: transparent;
     text-shadow: -3px 5px 7px #112849;
 }
-
