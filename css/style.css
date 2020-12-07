@@ -2,7 +2,7 @@
     font-family: 'Akrobat Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Regular'), url('../../SportLine.github.io/fonts/try12/akrobat-regular.otf') format('opentype');
+    src: local('Akrobat Regular'), url('../../SportLine.github.io/fonts/Akrobat/akrobat-regular.otf') format('opentype');
     }
 
 
@@ -10,7 +10,7 @@
     font-family: 'Akrobat SemiBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat SemiBold'), url('../../SportLine.github.io/fonts/try12/akrobat-semibold.otf') format('opentype');
+    src: local('Akrobat SemiBold'), url('../../SportLine.github.io/fonts/Akrobat/akrobat-semibold.otf') format('opentype');
     }
 
 
@@ -18,7 +18,7 @@
     font-family: 'Akrobat Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Bold'), url('../../SportLine.github.io/fonts/try12/akrobat-bold.otf') format('opentype');
+    src: local('Akrobat Bold'), url('../../SportLine.github.io/fonts/Akrobat/akrobat-bold.otf') format('opentype');
     }
 
 
@@ -26,7 +26,7 @@
     font-family: 'Akrobat ExtraBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat ExtraBold'), url('../../SportLine.github.io/fonts/try12/akrobat-extrabold.otf') format('opentype');
+    src: local('Akrobat ExtraBold'), url('../../SportLine.github.io/fonts/Akrobat/akrobat-extrabold.otf') format('opentype');
     }
 
 
@@ -34,7 +34,7 @@
     font-family: 'Akrobat Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Akrobat Black'), url('../../SportLine.github.io/fonts/try12/akrobat-black.otf') format('opentype');
+    src: local('Akrobat Black'), url('../../SportLine.github.io/fonts/Akrobat/akrobat-black.otf') format('opentype');
     }
 
 /*Задній фон*/

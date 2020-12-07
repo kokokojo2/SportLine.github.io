@@ -6,7 +6,6 @@
 
     .mainWrapper{
         width: 320px;
-        border: 1px solid red;
         position: relative;
 
         padding: 15px 10px 15px 10px;
@@ -27,10 +26,10 @@
     /*меню*/
     .hamburgerToggle{
         display: block;
+        z-index: 1;
 
         position: absolute;
         right: 15px;
-        z-index: 1;
 
     }
 
@@ -45,11 +44,14 @@
     #toggle:checked + .mobileMenu{
         display: block;
     }
+
     .menuBar{
         margin-top: 0;
     }
+
     .mobileMenu{
         display: none;
+
         height: fit-content;
         width: 228px;
         z-index: 0;
@@ -111,14 +113,16 @@
     }
 
     .mainSlogan{
+        width: 100%;
+
         margin: 20px auto;
         text-align: center;
-        width: 100%;
     }
 
     .mainPic{
         display: none;
     }
+
     .mainSlogan a{
         display: none;
     }
@@ -135,6 +139,7 @@
 
     h1::after{
         height: 6px;
+
         margin-left: 27px;
     }
 
@@ -178,9 +183,9 @@
 
     .mobileSlider{
         height: 230px;
+        display: flex;
 
         padding-left: 20px;
-        display: flex;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
@@ -214,17 +219,19 @@
         top: 15%;
         right: 27%;
     }
+
     .slide{
         width: 300px;
         height: 210px;
+        display: flex;
 
         padding-left: 10px;
 
-        display: flex;
         flex-shrink: 0;
 
         scroll-behavior: smooth;
     }
+
     .mobileSlider + img{
         display: block;
 
@@ -256,11 +263,13 @@
     .mobileSlogan{
         margin-top: 20px;
         margin-bottom: 20px;
+
         text-align: center;
     }
 
     .mobileSlogan h3{
         font-size: 25px;
+
         margin-bottom: 10px;
     }
 
@@ -272,12 +281,14 @@
     .accordText{
         display: none;
     }
+
     .accordBtn{
         margin-left: 80px;
         margin-bottom: 30px;
 
         font-family: "Akrobat Regular", sans-serif;
     }
+
     .mobileAccordion{
         margin-bottom: 10px;
         position: relative;
@@ -296,6 +307,7 @@
         margin-bottom: 20px;
         margin-top: 50px;
     }
+
     .mobileAccordion input{
         display: none;
     }
@@ -305,6 +317,7 @@
         bottom: 5px;
         left: 130px;
     }
+
     .mobileAccordion img{
         padding-top: 20px;
     }
@@ -312,6 +325,7 @@
     .accordContent > .sectionName{
         font-family: "Akrobat SemiBold", sans-serif;
         font-size: 40px !important;
+
         padding-bottom: 70px;
     }
 
@@ -319,6 +333,7 @@
     #accordToggle2:checked + .accordContent.ac2  .accordText,
     #accordToggle3:checked + .accordContent.ac3  .accordText{
         display: block;
+
         font-family: "Akrobat Regular", sans-serif;
         font-size: 15px;
         color: white;
@@ -335,12 +350,14 @@
     .comparisonTable{
         margin-bottom: 20px;
     }
+
     .registrationForm{
-        background-color: transparent;
-        box-shadow: none;
         display: block;
         width: 100%;
         height: 1500px;
+
+        background-color: transparent;
+        box-shadow: none;
     }
 
     .registration{
@@ -351,6 +368,7 @@
         padding: 20px;
         margin-left: 60px;
         margin-top: -300px;
+
         background: #275aa2;
         box-shadow: -3px 5px 7px #112849;
     }
@@ -374,6 +392,7 @@
         width: fit-content;
         margin-left: -3px;
     }
+
     .middleBlock{
         text-align: center;
     }
@@ -395,6 +414,7 @@
 
         font-family: "Akrobat SemiBold", sans-serif;
     }
+
     form{
         padding: 5px;
     }
@@ -415,11 +435,13 @@
 
     .social{
         width: 100%;
+
         padding: initial;
 
         left: 13px;
         bottom: -10px;
     }
+
     .social img{
         width: 55px;
     }
