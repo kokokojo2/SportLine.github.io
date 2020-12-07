@@ -58,7 +58,7 @@ body{
 a { text-decoration: none; }
 
 button, input[type="submit"]{
-    font-family: "Akrobat ExtraBold", cursive;
+    font-family: "Akrobat ExtraBold", san-serif;
     font-size: 30px;
     text-align: center;
     color: white;
@@ -74,7 +74,7 @@ button, input[type="submit"]{
 }
 
 .sectionName, .advantageName{
-    font-family: "Akrobat ExtraBold", cursive;
+    font-family: "Akrobat ExtraBold", san-serif;
     font-size: 30px;
     color: white;
 
@@ -117,7 +117,7 @@ h1, h2, h3{
 
 }
 .logoText{
-    font-family: "Akrobat ExtraBold", cursive;
+    font-family: "Akrobat ExtraBold", san-serif;
     font-size: 35px;
     color: white;
 
@@ -154,14 +154,14 @@ nav{
 }
 
 .menuBar ul li a{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     color: white;
     font-size: 20px;
 
 }
 
 .menuBar ul li a:visited{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     color: white;
     font-size: 20px;
 }
@@ -207,7 +207,7 @@ nav{
 
 /*Стилізація першого екрану*/
 h1{
-    font-family: 'Akrobat Black', cursive;
+    font-family: 'Akrobat Black', san-serif;
     font-size: 50px;
 }
 
@@ -225,12 +225,12 @@ h1:after{
 }
 
 h2{
-    font-family: 'Akrobat Black', cursive;
+    font-family: 'Akrobat Black', san-serif;
     font-size: 45px;
 }
 
 .mainSlogan h3{
-    font-family: 'Akrobat SemiBold', cursive;
+    font-family: 'Akrobat SemiBold', san-serif;
     font-size: 32px;
 }
 
@@ -248,7 +248,7 @@ h2{
     padding-left: 40px;
 
     color: white;
-    font-family: "Akrobat SemiBold", cursive;
+    font-family: "Akrobat SemiBold", san-serif;
     font-size: 30px;
     text-shadow: -3px 5px 7px #112849;
 }
@@ -269,7 +269,7 @@ h2{
 
 /*Стилізація другого екрану*/
 .textContainer{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
     color: white;
 
@@ -300,7 +300,7 @@ h2{
 .advantageText{
     padding-right: 150px;
 
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
     color: white;
 
@@ -321,19 +321,19 @@ h2{
 }
 
 .col2.card p{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     color: white;
     font-size: 35px;
 }
 
 .slogan span{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 25px;
     text-shadow: -3px 5px 7px #112849;
     color: white;
 }
 .slogan .sectionName{
-    font-family: "Akrobat ExtraBold", cursive;
+    font-family: "Akrobat ExtraBold", san-serif;
     font-size: 30px;
     color: white;
 
@@ -343,7 +343,7 @@ h2{
 
 /*Типи абонементів*/
 .col4.card p:not(.sectionName){
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
     color: white;
 
@@ -353,14 +353,14 @@ h2{
 }
 
 .col4.card .sectionName{
-     font-family: "Akrobat SemiBold", cursive;
+     font-family: "Akrobat SemiBold", san-serif;
      font-size: 40px;
 
      padding-top: 15px;
 }
 .middleBlock .col4.card{
     text-shadow: none;
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
     color: white;
 
@@ -368,7 +368,7 @@ h2{
 }
 
 .col4.card button{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
 
     padding-left: 15px;
     padding-right: 15px;
@@ -384,14 +384,14 @@ td, th{
 }
 
 td{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
 
     padding: 7px 0;
 }
 
 th{
-    font-family: "Akrobat ExtraBold", cursive;
+    font-family: "Akrobat ExtraBold", san-serif;
     font-size: 30px;
 
     padding: 20px 40px;
@@ -406,7 +406,7 @@ th{
 }
 
 label{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     color: white;
     font-size: 20px;
     text-shadow: -3px 5px 7px #112849;
@@ -417,7 +417,7 @@ input, input:focus{
     padding-bottom: 5px;
     border: none;
 
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
     color: white;
 
@@ -450,7 +450,7 @@ form span::after{
 }
 
 .middleBlock{
-    font-family: "Akrobat SemiBold", cursive;
+    font-family: "Akrobat SemiBold", san-serif;
     font-size: 30px;
     color: white;
     text-shadow: -3px 5px 7px #112849;
@@ -481,7 +481,7 @@ input:focus:invalid{
 }
 
 footer p{
-    font-family: "Akrobat Regular", cursive;
+    font-family: "Akrobat Regular", san-serif;
     font-size: 20px;
     color: white;
     text-align: center;
